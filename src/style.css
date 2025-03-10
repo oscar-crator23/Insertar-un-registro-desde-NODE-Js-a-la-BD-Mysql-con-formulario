@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(235, 235, 235);
+}
+
+.form-body {
+    width: 500px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 1px #1d2bc4f5;
+    margin: 10px;
+}
+
+.form-body img {
+    width: 50px;  
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+.text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #171616;
+    margin-bottom: 25px;
+}
+
+.form-body input {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: #c72020c7;
+    background-color:  rgb(235, 235, 235);;
+    border: 1px solid #423d3dc7;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.form-body input[type="password"] {
+    margin-top: 20px;
+}
+
+::placeholder {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.form-body input:hover {
+    transition: .5s;
+    border: 1px solid #2980b9;
+    color: #2498db;
+}
+
+.boton {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78%;
+    background: transparent;
+    color: #8f9191;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #656668;
+    transition:  all .5s ease;
+    
+}
+
+.boton:hover {
+    color:rgb(126, 236, 255);
+    border: 2px solid #111212;
+    background:linear-gradient(#1a1919,#2c3e50);
+}
+.form-body img {
+    mix-blend-mode: multiply;
+}
+
+.form-body {
+    background: rgb(255, 255, 255); 
+    padding: 50px;
+    border-radius: 10px;
+    border: 0px solid rgb(61, 61, 63);  
+    box-shadow: 1px 0px 25px rgb(126, 236, 255);
+    text-align: center;
+    width: 300px;
+}
